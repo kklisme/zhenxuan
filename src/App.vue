@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>我是App</h1>
+    <h2>新增h2标题</h2>
   </div>
 </template>
 
@@ -8,14 +9,10 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  setup () {
-
-
+  setup() {
     return {}
-  }
+  },
 })
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
